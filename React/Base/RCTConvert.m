@@ -256,6 +256,13 @@ RCT_ENUM_CONVERTER(UITextFieldViewMode, (@{
   @"always": @(UITextFieldViewModeAlways),
 }), UITextFieldViewModeNever, integerValue)
 
+RCT_ENUM_CONVERTER(UITextBorderStyle, (@{
+  @"none": @(UITextBorderStyleNone),
+  @"line": @(UITextBorderStyleLine),
+  @"bezel": @(UITextBorderStyleBezel),
+  @"rounded-rect": @(UITextBorderStyleRoundedRect),
+}), UITextBorderStyleNone, integerValue)
+
 RCT_ENUM_CONVERTER(UIKeyboardType, (@{
   @"default": @(UIKeyboardTypeDefault),
   @"ascii-capable": @(UIKeyboardTypeASCIICapable),
